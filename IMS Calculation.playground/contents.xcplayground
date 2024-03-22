@@ -4,5 +4,6 @@
         <page name='Backwall Calculation'/>
         <page name='Gondola Calculation'/>
         <page name='Shelving System Calculation'/>
+        <page name='Brackets and Shelf Calculation'/>
     </pages>
 </playground>
