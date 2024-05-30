@@ -7,7 +7,7 @@ var isConnected: Bool  = false
 // 確認是否貨架是Single side還Double side的
 var isDoubleSide: Bool = false
 
-var nintySections: Int = 0
+var nintySections: Int = 3
 var sixtySections: Int = 1
 
 var depth: Int = 20
@@ -70,6 +70,7 @@ func calculationBracketsAndShelfs () {
                 break
             }
         }
+        
     // 只有W600 sections，並且連結在一起
     } else if nintySections.isMultiple(of: 0) && isConnected == true {
         if isDoubleSide {
@@ -181,6 +182,7 @@ func calculationBracketsAndShelfs () {
                 break
             }
         }
+        
     // 只有W900 sections，並且連結在一起
     } else if sixtySections.isMultiple(of: 0)  && isConnected == true {
         if isDoubleSide {

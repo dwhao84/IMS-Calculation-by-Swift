@@ -8,12 +8,12 @@ import UIKit
 
 // MARK: - Calculate Section
 
-var nintySectionQty: Int = 0  /// Change the value here.
-var sixtySectionQty: Int = 1  /// Change the value here.
+var nintySectionQty: Int = 5  /// Change the value here.
+var sixtySectionQty: Int = 0  /// Change the value here.
 
 let nintySection: Int     = 90
 let sixtySection: Int     = 60
-let additionalLength: Int = 3
+let additionalLength: Int = 0
 
 let floorFullLength: Int = (nintySection * nintySectionQty + sixtySection * sixtySectionQty + additionalLength )
 print("The whole section is \(floorFullLength) cm")

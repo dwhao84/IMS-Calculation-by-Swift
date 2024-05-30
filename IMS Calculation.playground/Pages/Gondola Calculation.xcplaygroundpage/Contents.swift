@@ -10,8 +10,8 @@ import UIKit
  */
 
 var postOfHeight:    Int = 135 /// Change the value here.
-var nintySectionQty: Int = 3   /// Change the value here.
-var sixtySectionQty: Int = 0   /// Change the value here.
+var nintySectionQty: Int = 0   /// Change the value here.
+var sixtySectionQty: Int = 2   /// Change the value here.
 
 // Make sure is single or double.
 var isSingleSide: Bool   = false
