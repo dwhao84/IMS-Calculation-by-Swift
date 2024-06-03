@@ -6,5 +6,6 @@
         <page name='Shelving System Calculation'/>
         <page name='Brackets and Shelf Calculation'/>
         <page name='Bins Calculation'/>
+        <page name='README.md'/>
     </pages>
 </playground>
